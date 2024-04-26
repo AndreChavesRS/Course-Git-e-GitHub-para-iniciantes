@@ -1,19 +1,21 @@
-Instalando o Git
+**Instalando o Git**
 Antes de começar a usar o Git, você tem que torná-lo disponível em seu computador. Mesmo se ele já tiver sido instalado, é provavelmente uma boa idéia atualizar para a versão mais recente. Você pode instalá-lo como um pacote ou através de outro instalador, ou baixar o código fonte e compilá-lo.
 
-Note
+**Note**
 Este livro foi escrito usando a versão 2.0.0 do Git. Embora a maioria dos comandos usados deve funcionar mesmo em versões antigas do Git, alguns deles podem não funcionar, ou podem agir de forma ligeiramente diferente se você estiver usando uma versão mais antiga. Como o Git é excelente para preservar compatibilidade com versões anteriores, qualquer versão após 2.0 deve funcionar muito bem.
 
-Instalando no Linux
+**Instalando no Linux**
 Se você deseja instalar o Git no Linux através de um instalador binário, você pode geralmente fazê-lo através da ferramenta básica de gerenciamento de pacotes que vem com sua distribuição. Se você usar Fedora por exemplo, você pode usar o yum:
-
+```bash
 $ sudo yum install git-all
+```
 Se você usar uma distribuição baseada em Debian como o Ubuntu, use o apt-get:
-
+```bash
 $ sudo apt-get install git-all
+```
 Para mais opções de instruções de como instalar o Git em outros vários sistemas Unix, veja na página do Git, em http://git-scm.com/download/linux.
 
-Instalando no Mac
+**Instalando no Mac**
 Existem várias maneiras de instalar o Git em um Mac. O mais fácil é provavelmente instalar as ferramentas de linha de comando Xcode. No Mavericks (10,9) ou acima, você pode fazer isso simplesmente rodando git a partir do Terminal pela primeira vez. Se você não tiver o Git instalado, ele irá pedir-lhe para instalá-lo.
 
 Se você quiser uma versão mais atualizada, você também pode instalá-lo através de um instalador binário. Um instalador OSX Git é mantido e disponível para download no site do Git, pelo http://git-scm.com/download/mac.
