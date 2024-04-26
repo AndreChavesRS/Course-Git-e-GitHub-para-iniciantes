@@ -5,6 +5,6 @@
 
 **Requisitos Básicos**
 
-Windons, Linux e OSx;   
-Conhecimento básico de terminal ou prompt de comando;       
-Vontade de aprender;        
+    - Windons, Linux e OSx;
+    - Conhecimento básico de terminal ou prompt de comando;       
+    - Vontade de aprender;        
